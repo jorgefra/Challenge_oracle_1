@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <meta name="viewport" content="width=940px, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">a</h1>
+    </header>
+    
+    <div id="container">
+        <div class="entrada-area">
+            <textarea placeholder="Ingrese el texto" id="entrada" class="texto"></textarea>
+            <div id="alerta">
+                <img src="./imagenes/alerta.png" alt="signo de alerta">
+                <p id="texto-alerta">Solo letras minúsculas y sin acentos</p>
+            </div>
+    
+            <div id="botones">
+                <button id="button-enc">Encriptar</button>
+                <button id="button-des" class="button-claro">Desencriptar</button>
+            </div>
+        </div>
+    
+        <div class="salida-area">
+            <p id="salida" class="texto"></p>
+            <div id="salida-mensaje">
+                <img src="./imagenes/persona.png" alt="persona con lupa" id="persona">
+                <p id="texto-oscuro">Ningún mensaje fue encontrado</p>
+                <p id="texto-claro">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button id="button-copy" class="button-claro">Copiar</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="marca">
+            <p>Jorge Franco</p>
+            <a href="https://github.com/jorgefra" target="_blank"><img src="./imagenes/GitHub-Mark-64px.png" alt="logo github" class="github"></a>
+        </div>
+    </footer>
+
+</body>
