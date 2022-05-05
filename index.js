@@ -36,7 +36,7 @@ function encriptar(){
             textoEnc += texto[i];
         }
     }
-    
+    document.getElementById('entrada').value = "";
     var salida = document.getElementById('salida');
     salida.innerText = textoEnc;
 
@@ -45,6 +45,7 @@ function encriptar(){
 
     var salidaMensaje = document.getElementById('salida-mensaje');
     salidaMensaje.style.visibility = "hidden";
+    
     console.log(textoEnc);
         
 
@@ -83,6 +84,8 @@ function desencriptar(){
 
     var salida = document.getElementById('salida');
     salida.innerText = textoDesenc;
+
+    document.getElementById('entrada').value = "";
 
     var buttonCopy = document.getElementById('button-copy');
     buttonCopy.style.visibility = "visible";

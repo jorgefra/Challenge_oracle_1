@@ -1,0 +1,67 @@
+@media (max-width: 1000px){
+
+    #titulo{
+        margin-top: 5%;
+    }
+    .entrada-area{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        margin-top: 20%;
+    }
+    .salida-area{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 300px;
+        
+    }
+    #salida{
+        height: auto;
+        padding: 30px;
+        width: 90%;
+        max-width: 100%;
+        font-size: 22px;   
+        max-height: 75%;
+        padding-top: 40px;
+    }
+    #container{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #persona{
+        display: none;
+    }
+    #salida-mensaje{
+        position: inherit;
+        width: 100%;
+    }
+    
+    #button-copy{
+        position: absolute;
+        bottom: 15%;
+        left: 37%;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 580px) {
+    footer{
+        height: 70px;
+    }
+    .salida-area{
+        height: 250px;
+    }
+    #button-copy{
+        bottom: 10%;
+        left: 30%;
+    }
+}

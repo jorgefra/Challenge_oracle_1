@@ -22,12 +22,11 @@ body {
 }
 
 .entrada-area {
-    min-width: 20%;
+    width: 45%;
     height: 60%;
     margin-top: 5%;
-    margin-right: 15%;
+    margin-right: 5%;
     margin-left: 15%;
-    background: #ffffff;
     border-radius: 32px;
 }
 
@@ -60,9 +59,21 @@ body {
     color: #495057;
 }
 
+#botones{
+    width: 90%;
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+}
+
+#botones button{
+    flex: auto;
+    
+}
+
 button{
     font-size: 16px;
-    width: 200px;
+    max-width: 200px;
     padding: 15px;
     box-sizing: border-box;
     border: 1px solid #0A3871;
@@ -90,10 +101,13 @@ button{
 
 #salida {
     width: 320px;
+    max-width: 100%;
+    overflow-wrap: break-word;
     height: 500px;
     color: #495057;
     font-size: 24px;
     margin: 25px;
+    max-height: 75%;
 }
 
 #persona {
@@ -108,9 +122,11 @@ button{
 }
 
 #button-copy{
-    position: relative;
-    top: -65px;
-    left: 110px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 50px;
+    
 }
 
 #texto-oscuro {
