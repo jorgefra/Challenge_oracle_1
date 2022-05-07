@@ -63,12 +63,12 @@ body {
     width: 90%;
     display: flex;
     flex: auto;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 #botones button{
-    flex: auto;
-    
+    width: 150px;
 }
 
 button{
@@ -97,6 +97,7 @@ button{
     display: inline;
     background: #FFFFFF;
     border-radius: 32px;
+    position: relative;
 }
 
 #salida {
@@ -121,12 +122,16 @@ button{
     padding-left: 15px;    
 }
 
+.vertical-center{
+    position: absolute;
+    top: 95%;
+    left: calc(50% - 100px);
+}
+
 #button-copy{
     display: block;
     margin: 0 auto;
     width: 200px;
-    margin-top: 50px;
-    
 }
 
 #texto-oscuro {
