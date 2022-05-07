@@ -15,6 +15,7 @@
         width: 80%;
         margin: 0 auto;
         height: 300px;
+        margin-bottom: 50px;
         
     }
     #salida{
@@ -37,6 +38,9 @@
     #salida-mensaje{
         position: inherit;
         width: 100%;
+        position: absolute;
+        top: calc(10%);
+        left: calc(0%);
     }
     
     #button-copy{
@@ -45,10 +49,18 @@
         left: 37%;
     }
 
-    footer{
-        position: fixed;
-        bottom: 0;
-        margin-top: 10px;
+    #botones {
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    #botones bottom{
+        justify-content: space-between;
+        width: 150px;
+    }
+
+    .vertical-center{ 
+        top: 95%;
     }
 
 }
@@ -64,4 +76,15 @@
         bottom: 10%;
         left: 30%;
     }
+
+    #botones {
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    #botones bottom{
+        justify-content: space-between;
+        width: 150px;
+    }
+    
 }

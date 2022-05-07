@@ -63,12 +63,12 @@ body {
     width: 90%;
     display: flex;
     flex: auto;
-    justify-content: space-between;
-    margin: 0 auto;
+    justify-content: space-around;
+    
 }
 
 #botones button{
-    width: 150px;
+    flex: auto;
 }
 
 button{
@@ -117,14 +117,13 @@ button{
 
 #salida-mensaje{
     position: absolute;
-    top: 150px;
-    width: 30%;
-    padding-left: 15px;    
+    bottom: calc(50% - 180px);
+    left: calc(50% - 215px);
 }
 
 .vertical-center{
     position: absolute;
-    top: 95%;
+    top: 85%;
     left: calc(50% - 100px);
 }
 
@@ -148,20 +147,24 @@ button{
 
 footer{
     width: 100%;
-    height: 150px;
     background: linear-gradient(#E5E5E5 , #0A3871 );
+    font-size: 1.2em;
+    color: #050f22;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+    height: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
     display: flex;
-    margin: 0 auto;
-    font-size: 1.2em;
-    color: #050f22;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .marca{
     display: block;
+    margin: 10px 0 40px 0;
 }
 
 .github{
